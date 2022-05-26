@@ -1,0 +1,18 @@
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\bin\Debug\net6.0-windows\Instalador de Apps.exe
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\bin\Debug\net6.0-windows\Instalador de Apps.deps.json
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\bin\Debug\net6.0-windows\Instalador de Apps.runtimeconfig.json
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\bin\Debug\net6.0-windows\Instalador de Apps.dll
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\bin\Debug\net6.0-windows\Instalador de Apps.pdb
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.csproj.GenerateResource.cache
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.AssemblyInfo.cs
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.dll
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\refint\Instalador de Apps.dll
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.pdb
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador de Apps.genruntimeconfig.cache
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\ref\Instalador de Apps.dll
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador_de_Apps.frm_apps.resources
+C:\Users\Asus\Documents\Instalador de Apps\Instalador de Apps\Instalador de Apps\obj\Debug\net6.0-windows\Instalador_de_Apps.frm_first.resources

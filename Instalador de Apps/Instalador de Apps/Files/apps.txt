@@ -1,0 +1,1 @@
+Google_Chrome;choco install googlechrome/FireFox;choco install firefox/Java;choco install jre8/7-Zip;choco install 7zip.install/Microsoft_Teams;choco install microsoft-teams.install
