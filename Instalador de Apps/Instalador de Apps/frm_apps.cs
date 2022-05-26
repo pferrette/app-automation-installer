@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace Instalador_de_Apps
 {
     public partial class frm_apps : Form
@@ -32,9 +34,13 @@ namespace Instalador_de_Apps
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var getFulPath = Path.GetFullPath("C:/Users/Asus/Documents/Instalador de Apps/Instalador de Apps/Instalador de Apps/Files/apps.txt");
-            StreamReader filesFlow = new StreamReader(getFulPath);
-            string strings = filesFlow.ReadToEnd();
+            Process process = new Process();
+            process.StartInfo.FileName = "cmd.exe";
+            process.StartInfo.Arguments = "Teste";
+            process.Start();
+            //var getFulPath = Path.GetFullPath("C:/Users/Asus/Documents/Instalador de Apps/Instalador de Apps/Instalador de Apps/Files/apps.txt");
+            //StreamReader filesFlow = new StreamReader(getFulPath);
+            //string strings = filesFlow.ReadToEnd();
         }
     }
 }

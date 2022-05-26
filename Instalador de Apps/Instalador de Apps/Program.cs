@@ -19,9 +19,12 @@ namespace Instalador_de_Apps
             {
                 Application.Run(new frm_apps());
 
-                Process process = new Process();
-                string strCommand = @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex((New - Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH =% PATH %;% ALLUSERSPROFILE %\chocolatey\bin"
-                process.Start("cmd.exe", strCommand);
+                //Process process = new Process();
+                //string strCommand1 = $"@{'\u0022'}%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe{'\u0022'}";
+                //string strCommand2 = " -NoProfile - InputFormat None - ExecutionPolicy Bypass - Command ";
+                //string strCommand3 = "iex((New - Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))";
+                //string strCommand4 = $" & SET {'\u0022'}PATH =% PATH %;% ALLUSERSPROFILE %\\chocolatey\bin{'\u0022'}";
+                //process.Start("notepad.exe", strCommand1+ strCommand2+ strCommand3+ strCommand4);
             }
             else
             {
