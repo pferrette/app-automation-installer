@@ -8,6 +8,7 @@ namespace Instalador_de_Apps
 {
     internal class AppClass
     {
+        public int AppId { get; set; }
         public string Name { get; set; }
         public string Command { get; set; }
 

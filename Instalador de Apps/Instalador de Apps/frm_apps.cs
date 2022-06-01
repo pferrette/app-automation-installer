@@ -14,33 +14,56 @@ namespace Instalador_de_Apps
             btn_start.Text = "Start Installation";
 
 
-            var list = new List<string>();
+            var list = new Dictionary<string,int>();
+            list.Add("Google Chrome",0);
+            list.Add("Adobe Reader",1);
+            list.Add("WinRar",2);
+            list.Add("7-Zip",3);
+            list.Add("Java",4);
+            list.Add("Office",5);
+            list.Add("TeamViewer",6);
+            list.Add("Microsoft Teams",7);
 
-            list.Add("Google Chrome");
-            list.Add("43222");
+            var apps = new AppClass();
 
             foreach (var item in list)
             {
-                clb_apps.Items.Add(item);
+                clb_apps.Items.Add(item.Key);
             }
         }
 
-        
-
         private void btn_start_Click(object sender, EventArgs e)
         {
-            //openFileDialog1.ShowDialog();
+            for (int i = 0; i < clb_apps.SelectedIndex; i++)
+            {
+
+            }
+        }
+
+        public void ExecutaComando(int i)
+        {
+            var teste = new Dictionary<string, int>();
+            teste.Add("teste", 0);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "cmd.exe";
-            process.StartInfo.Arguments = "Teste";
-            process.Start();
-            //var getFulPath = Path.GetFullPath("C:/Users/Asus/Documents/Instalador de Apps/Instalador de Apps/Instalador de Apps/Files/apps.txt");
-            //StreamReader filesFlow = new StreamReader(getFulPath);
-            //string strings = filesFlow.ReadToEnd();
+            //Process.Start("command.bat");
+            label1.Text = clb_apps.Items.Count.ToString();
+        }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            frm_apps n = new frm_apps();
+            n.Close();
+        }
+
+        private void chk_All_CheckedChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < clb_apps.Items.Count; i++)
+            {
+                clb_apps.SetItemChecked(i, chk_All.Checked);
+            }
         }
     }
 }
