@@ -14,21 +14,25 @@ namespace Instalador_de_Apps
             btn_start.Text = "Start Installation";
 
 
-            var list = new Dictionary<string,int>();
-            list.Add("Google Chrome",0);
-            list.Add("Adobe Reader",1);
-            list.Add("WinRar",2);
-            list.Add("7-Zip",3);
-            list.Add("Java",4);
-            list.Add("Office",5);
-            list.Add("TeamViewer",6);
-            list.Add("Microsoft Teams",7);
+            var list = new List<string>();
+            list.Add("Google Chrome");
+            list.Add("Adobe Reader");
+            list.Add("WinRar");
+            list.Add("7-Zip");
+            list.Add("Java");
+            list.Add("Office");
+            list.Add("TeamViewer");
+            list.Add("Microsoft Teams");
 
-            var apps = new AppClass();
+            var googleChrome = new AppClass() { AppId = 0, Name = "Google Chrome", Command = "choco install googlechrome -y" };
+            var adobeReader = new AppClass() { AppId = 1, Name = "Adobe Reader", Command = "choco install adobereader -y" };
+            var winrar = new AppClass() { AppId = 2, Name = "WinRar", Command = "choco install winrar -y" };
+            var sevenZip = new AppClass() { AppId = 3, Name = "7-Zip", Command = "choco install 7zip.install -y" };
+            var java = new AppClass() { AppId = 4, Name = "Java", Command = "choco install javaruntime -y" };
 
             foreach (var item in list)
             {
-                clb_apps.Items.Add(item.Key);
+                clb_apps.Items.Add(googleChrome.Name);
             }
         }
 
